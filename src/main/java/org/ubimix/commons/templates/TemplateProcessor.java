@@ -8,7 +8,7 @@
  * Contributors:
  *     Cognium Systems SA - initial API and implementation
  *******************************************************************************/
-package org.webreformatter.commons.templates;
+package org.ubimix.commons.templates;
 
 import java.util.Properties;
 
@@ -35,14 +35,14 @@ public abstract class TemplateProcessor implements ITemplateProcessor {
     }
 
     /**
-     * @see org.webreformatter.commons.templates.ITemplateProcessor#getProperties()
+     * @see org.ubimix.commons.templates.ITemplateProcessor#getProperties()
      */
     public Properties getProperties() {
         return fProperties;
     }
 
     /**
-     * @see org.webreformatter.commons.templates.ITemplateProcessor#getResourceProvider()
+     * @see org.ubimix.commons.templates.ITemplateProcessor#getResourceProvider()
      */
     public ITemplateProvider getResourceProvider() {
         return fTemplateProvider;

@@ -8,7 +8,7 @@
  * Contributors:
  *     Cognium Systems SA - initial API and implementation
  *******************************************************************************/
-package org.webreformatter.commons.templates.providers;
+package org.ubimix.commons.templates.providers;
 
 import java.io.BufferedInputStream;
 import java.io.File;
@@ -16,7 +16,7 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 
-import org.webreformatter.commons.templates.ITemplateProvider;
+import org.ubimix.commons.templates.ITemplateProvider;
 
 
 /**
@@ -35,7 +35,7 @@ public class FileResourceProvider implements ITemplateProvider {
     }
 
     /**
-     * @see org.webreformatter.commons.templates.semanticdesktop.common.ITemplateProvider.IResourceProvider#getLastModified(java.lang.String)
+     * @see org.ubimix.commons.templates.semanticdesktop.common.ITemplateProvider.IResourceProvider#getLastModified(java.lang.String)
      */
     public long getLastModified(String key) throws IOException {
         File file = newFile(key);
@@ -43,7 +43,7 @@ public class FileResourceProvider implements ITemplateProvider {
     }
 
     /**
-     * @see org.webreformatter.commons.templates.semanticdesktop.common.ITemplateProvider.IResourceProvider#getTemplate(java.lang.String)
+     * @see org.ubimix.commons.templates.semanticdesktop.common.ITemplateProvider.IResourceProvider#getTemplate(java.lang.String)
      */
     public InputStream getTemplate(String key) throws IOException {
         File file = newFile(key);
@@ -61,7 +61,7 @@ public class FileResourceProvider implements ITemplateProvider {
     }
 
     /**
-     * @see org.webreformatter.commons.templates.semanticdesktop.common.ITemplateProvider.IResourceProvider#templateExists(java.lang.String)
+     * @see org.ubimix.commons.templates.semanticdesktop.common.ITemplateProvider.IResourceProvider#templateExists(java.lang.String)
      */
     public boolean templateExists(String key) throws IOException {
         File file = newFile(key);

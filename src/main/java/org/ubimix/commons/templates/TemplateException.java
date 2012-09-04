@@ -8,7 +8,7 @@
  * Contributors:
  *     Cognium Systems SA - initial API and implementation
  *******************************************************************************/
-package org.webreformatter.commons.templates;
+package org.ubimix.commons.templates;
 
 /**
  * @author kotelnikov

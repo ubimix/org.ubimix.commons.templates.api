@@ -1,7 +1,7 @@
 /**
  * 
  */
-package org.webreformatter.commons.templates;
+package org.ubimix.commons.templates;
 
 import java.io.IOException;
 import java.io.InputStream;
